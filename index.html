@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voleibol en Barranquilla</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="encabezado">
+            <h1>Volleyball</h1>
+            <div class="imagenLogo">
+                <img src="images/image-removebg-preview (6).png" alt="Balon de Volleyball" class="logo">
+                <p><span class="amarillo">En </span> <span class="azul">Barranquilla</span></p>
+            </div>
+        </div>
+    </header>
+    <div class="informacion1">
+        <div class="informacion0">
+            <h2 id="QueEs">¿Que es el voleibol?</h2>
+            <p id="resumenQueEs">El voleibol es un deporte que se juega en equipos de seis personas. Los equipos están separados por una gran red. El objetivo del juego es mantener la pelota en el aire usando cualquier parte del cuerpo, con un máximo de tres golpes por equipo antes de pasarla al otro lado de la red. Si en algún momento la pelota toca el piso, es un punto en contra del equipo que la dejó caer.</p>
+        </div>
+        <img src="https://t3.ftcdn.net/jpg/01/06/34/58/360_F_106345879_p2K1b549RgdKdxbNH41DsI2VHsn4TwR8.jpg" alt="imagen representativa del voleibol" class="imagenVolley">
+    </div>
+    <h2 id="tituloEquipos">Top 3 equipos mas fuertes (Barranquilla)</h2>
+    <div class="topEquipos">
+        <div class="numero2">
+            <img src="images/VolleyBallClub.png" alt="Equipo Lobos" class="equipos" id="imagenLobos">
+            <h3>Lobos</h3>
+        </div>
+        <div class="numero1">
+            <img src="images/VolleyBallClub.png" alt="Equipo Quilla Club" class="imagenQuilla">
+            <h3>Quilla Club</h3>
+        </div>
+        <div class="numero3">
+            <img src="images/VolleyBallClub.png" alt="Equipo Covolley" class="equipos" id="imagenCovolley">
+            <h3>Covolley</h3>
+        </div>
+    </div>
+    
+    <h2 id="equiposTitulo">Equipos mas conocidos en Barranquilla y sus alrededores</h2>
+    <div class="containerEquipos">
+        <div class="Equipos">
+            <div id="trio1">
+                <div id="uno">
+                    <p>VolleyTime</p>
+                    <img src="images/VolleyBallClub.png" alt="Academia VolleyTime" class="equipo-img">
+                </div>
+                <div id="dos">
+                    <p>Bulls</p>
+                    <img src="images/VolleyBallClub.png" alt="Bulls" class="equipo-img">
+                </div>
+                <div id="tres">
+                    <p>Atlantico</p>
+                    <img src="images/VolleyBallClub.png" alt="Atlantico" class="equipo-img">
+                </div>
+                <div id="cuatro">
+                    <p>CB</p>
+                    <img src="images/VolleyBallClub.png" alt="CB" class="equipo-img">
+                </div>
+            </div>
+            <div id="trio2">
+                <div id="cinco">
+                    <p>Carbar</p>
+                    <img src="images/VolleyBallClub.png" alt="Carbar" class="equipo-img">
+                </div>
+                <div id="seis">
+                    <p>DVA</p>
+                    <img src="images/VolleyBallClub.png" alt="DVA" class="equipo-img">
+                </div>
+                <div id="siete">
+                    <p>Top Volley</p>
+                    <img src="images/VolleyBallClub.png" alt="Top Volley" class="equipo-img">
+                </div>
+                <div id="ocho">
+                    <p>Snow Volley</p>
+                    <img src="images/VolleyBallClub.png" alt="Snow Volley" class="equipo-img">
+                </div>
+            </div>
+            <div id="trio3">
+                <div id="nueve">
+                    <p>Quilla Club</p>
+                    <img src="images/VolleyBallClub.png" alt="Quilla Club" class="equipo-img">
+                </div>
+                <div id="diez">
+                    <p>Lobos</p>
+                    <img src="images/VolleyBallClub.png" alt="Lobos" class="equipo-img">
+                </div>
+                <div id="once">
+                    <p>Elite</p>
+                    <img src="images/VolleyBallClub.png" alt="Elite" class="equipo-img">
+                </div>
+                <div id="doce">
+                    <p>Covolley</p>
+                    <img src="images/VolleyBallClub.png" alt="Covolley" class="equipo-img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="containerformulario">
+        <form action="https://formspree.io/f/xanqgroa" class="formulario" method="post">
+            <h2 class="tituloForm">¿Quieres pertenecer a un equipo?</h2>
+                <label for="Nombre"> <h5>Nombre completo</h5>
+                    <input type="text" placeholder="Fryd Kell Rios">
+                </label>
+            <div>
+                <label><h5>Edad</h5>
+                    <input type="number" placeholder="+7" min="7" max="30">
+                </label>
+            </div>
+            <div>
+                <label> <h5>Correo electronico</h5>
+                    <input type="email" placeholder="ejemplo@ejemplo.com">
+                </label>
+            </div>
+            <div>
+                <label><h5>Equipo al que quieres pertenecer</h5>
+                    <select name="equipos" id="equipos">
+                        <option value="Lobos">Lobos</option>
+                        <option value="Quilla Club">Quilla Club</option>
+                        <option value="Covolley">Covolley</option>
+                        <option value="VolleyTime">VolleyTime</option>
+                        <option value="Bulls">Bulls</option>
+                        <option value="Atlantico">Atlantico</option>
+                        <option value="CB">CB</option>
+                        <option value="Carbar">Carbar</option>
+                        <option value="DVA">DVA</option>
+                        <option value="Top Volley">Top Volley</option>
+                        <option value="Snow Volley">Snow Volley</option>
+                        <option value="Elite">Elite</option>
+                    </select>
+                </label>
+            </div>
+            <label id="terminos1"> <input type="checkbox" class="terminos" required>
+                <h5 class="terminos">Acepto los <a href="https://www.gov.co/terminos-y-condiciones" target="_blank" rel="noopener noreferrer nofollow"> terminos y condiciones</a></h5>
+            </label>
+            <div>
+                <label>
+                    <input type="submit" value="Enviar Solicitud" class="enviar">
+                </label>
+            </div>
+        </form>
+    </div>
+    <div class="footer">
+        <footer>
+                <fieldset>
+                    <legend>A tener en cuenta...</legend>
+                    <details>
+                        <summary>¿Existe alguna edad minima para competir?</summary>
+                        <p class="izquierdaDetails">Varia segun la categoria, en Colombia, los juegos intercolegiados se pueden participar desde los 7 años.</p>
+                    </details>
+                    <details>
+                        <summary>¿Cuales son las reglas?</summary>
+                        <p class="izquierdaDetails">Puedes leer las reglas oficiales haciendo <a href="https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-SP-v02.pdf" target="_blank" rel="noopener noreferrer nofollow">click aqui.</a></p>
+                    </details>
+                    <details>
+                        <summary>¿Puedo jugar si soy de baja estatura?</summary>
+                        <p class="izquierdaDetails">Aunque hay controversia en este tema, si, puedes hacerlo, sin importar lo que digan los demas, con esfuerzo puedes llegar a hacerlo.</p>
+                    </details>
+                </fieldset>
+                    <p class="footer1">© 2025 Voleibol en Barranquilla</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

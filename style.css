@@ -1,0 +1,320 @@
+body {
+    background-color: rgb(132, 137, 168);
+    color: #d3d3d3;
+    font-family: "Dosis", serif;
+    margin: 0;
+
+}
+
+.encabezado {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    position: relative;
+    background: linear-gradient(to bottom,  rgb(65, 65, 65) 90%, rgb(132, 137, 168));
+    
+}
+
+.logo {
+    margin-top: 10px;
+    position: absolute;
+    right: 120px; 
+    height: 120px; 
+}
+
+.informacion1 {
+    margin: 5cap 0px;
+    padding: 50px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(65, 65, 65);
+    transition: box-shadow 0.3s ease-in-out;    
+}
+
+.informacion1:hover {
+    box-shadow: 0px 0px 25px rgba(245, 245, 245, 0.822);
+}
+
+.informacion0 {
+    margin-right: 120px;
+    margin-left: 20px;
+    padding: 0 30px;
+    width: 900px;
+    text-align: justify;
+    border-radius: 20px;
+}
+
+#QueEs {
+    font-size: 50px;
+}
+
+#resumenQueEs {
+    font-size: 26px;
+    text-align: justify;
+}
+
+.imagenVolley {
+    border-radius: 20px;
+    width: 450px;
+    height: 300px;
+    margin-right: 20px;
+    transition: 0.2s ease-in-out;
+}
+
+.imagenVolley:hover {
+    width: 600px;
+    height: 400px;
+    cursor: grab;
+}
+
+
+.amarillo {
+    color: rgb(237, 215, 47);
+    font-weight: 500;
+}
+
+.azul {
+    color: rgb(49, 156, 195);
+    font-weight: 500;
+}
+
+.topEquipos {
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.imagenQuilla {
+    width: 350px;
+    border-radius: 30px;
+    transition: 0.2s ease-in-out;
+}
+
+.imagenQuilla:hover {
+    filter: drop-shadow(0px 0px 10px rgba(248, 224, 2, 0.918));
+}
+
+#imagenLobos:hover {
+    filter: drop-shadow(0px 0px 10px rgba(55, 0, 255, 0.918));
+}
+
+#imagenCovolley:hover {
+    filter: drop-shadow(0px 0px 10px rgba(255, 0, 0, 0.801));
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.equipos {
+    width: 300px;
+}
+
+#tituloEquipos {
+    font-size: 40px;
+    text-align: center;
+}
+
+.Equipos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    max-height: 800px;
+    overflow: hidden;
+    box-shadow: 0px 0px 25px rgba(215, 215, 215, 0.733);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#trio1, #trio2 {
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid rgb(176, 176, 176);
+}
+
+#trio3 {
+    display: flex;
+    justify-content: center;
+}
+
+#equiposTitulo {
+    font-size: 30px;
+    text-align: center;
+}
+
+.containerEquipos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipo-img {
+    width: 160px;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+}
+
+p:hover {
+    font-size: 32px;
+    cursor: pointer;
+}
+
+#uno:hover, #dos:hover, #tres:hover, #cuatro:hover, #cinco:hover, #seis:hover, #siete:hover, #ocho:hover, #nueve:hover, #diez:hover, #once:hover, #doce:hover {
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.918));
+
+}
+.footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    background-color: rgb(65, 65, 65);
+    border-radius: 5px;
+}
+
+summary {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+fieldset {
+    width: 600px;
+    height: max-content;
+    user-select: none
+}
+
+.izquierdaDetails {
+    text-align: left;
+    border-top: 2px solid rgb(176, 176, 176);
+    padding-top: 10px;
+
+}
+
+.izquierdaDetails:hover {
+    font-size: 20px;
+}
+
+legend {
+    font-weight: 600;
+ 
+}
+
+.containerformulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+h5 {
+    font-size: 25px;
+    font-weight: 300;
+    margin: 0;
+    
+}
+.formulario {
+    text-align: center;
+    width: 500px;
+    height: max-content;
+    background-color: rgb(74, 74, 74);
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 0px 0px 25px rgba(234, 234, 234, 0.733);
+    margin-top: 40px;
+
+}
+    /* Partirlo en 2 */
+
+#terminos1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10pxp;
+    gap: 10px;
+}
+
+.terminos {
+    width: max-content;
+}
+
+
+
+label {
+    font-size: 25px;
+    color: white;
+}
+
+input, select {
+    width: 65%;
+    background-color: transparent;
+    padding: 10px 20px;
+    border: none;
+    border-bottom: 2px solid white;
+    margin: 20px 0px;
+    outline: none;
+    color: white;
+    font-size: 18px;
+}
+
+.enviar {
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.enviar:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: rgba(225, 225, 225, 0.611);
+}
+
+option {
+    background-color: rgb(74, 74, 74);
+    color: white;
+}
+
+select {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+
+
+a:hover {
+    color: rgb(237, 215, 47);
+}
+
+.footer1:hover {
+    font-size: 18px;
+}
+
+.footer1 {
+    margin-top: 35px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-size: 18px;
+}
+
