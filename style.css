@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(132, 137, 168);
-    color: #d3d3d3;
+    background-color: #dedede;
+    color: #292929;
     font-family: "Dosis", serif;
     margin: 0;
 
@@ -11,7 +11,8 @@ body {
     justify-content: center;
     font-size: 30px;
     position: relative;
-    background: linear-gradient(to bottom,  rgb(65, 65, 65) 90%, rgb(132, 137, 168));
+    background: linear-gradient(to bottom,  rgb(65, 65, 65) 90%, rgb(116, 116, 117));
+    color: whitesmoke;
     
 }
 
@@ -28,12 +29,13 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: rgb(65, 65, 65);
+    color: whitesmoke;
+    background-color: rgb(66, 66, 66);
     transition: box-shadow 0.3s ease-in-out;    
 }
 
 .informacion1:hover {
-    box-shadow: 0px 0px 25px rgba(245, 245, 245, 0.822);
+    box-shadow: 0px 0px 25px rgba(32, 31, 31, 0.822);
 }
 
 .informacion0 {
@@ -92,7 +94,7 @@ body {
 }
 
 .imagenQuilla:hover {
-    filter: drop-shadow(0px 0px 10px rgba(248, 224, 2, 0.918));
+    filter: drop-shadow(0px 0px 10px rgba(221, 199, 0, 0.918));
 }
 
 #imagenLobos:hover {
@@ -125,9 +127,10 @@ h3{
     max-width: 1200px;
     max-height: 800px;
     overflow: hidden;
-    box-shadow: 0px 0px 25px rgba(215, 215, 215, 0.733);
+    box-shadow: 0px 0px 25px rgba(90, 90, 90, 0.733);
     border-radius: 20px;
     padding: 20px;
+    width: 900px;
 }
 
 #trio1, #trio2 {
@@ -168,7 +171,7 @@ p:hover {
 }
 
 #uno:hover, #dos:hover, #tres:hover, #cuatro:hover, #cinco:hover, #seis:hover, #siete:hover, #ocho:hover, #nueve:hover, #diez:hover, #once:hover, #doce:hover {
-    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.918));
+    filter: drop-shadow(0px 0px 10px rgba(91, 91, 91, 0.918));
 
 }
 .footer {
@@ -183,6 +186,8 @@ p:hover {
     padding-bottom: 20px;
     background-color: rgb(65, 65, 65);
     border-radius: 5px;
+    color: whitesmoke;
+
 }
 
 summary {
@@ -228,13 +233,15 @@ h5 {
 }
 .formulario {
     text-align: center;
-    width: 500px;
+    width: 900px;
     height: max-content;
     background-color: rgb(74, 74, 74);
     border-radius: 10px;
     font-size: 20px;
     box-shadow: 0px 0px 25px rgba(234, 234, 234, 0.733);
     margin-top: 40px;
+    color: whitesmoke;
+    padding: 20px;
 
 }
     /* Partirlo en 2 */

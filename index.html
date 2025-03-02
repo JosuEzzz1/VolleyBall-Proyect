@@ -104,22 +104,22 @@
     <div class="containerformulario">
         <form action="https://formspree.io/f/xanqgroa" class="formulario" method="post">
             <h2 class="tituloForm">¿Quieres pertenecer a un equipo?</h2>
-                <label for="Nombre"> <h5>Nombre completo</h5>
-                    <input type="text" placeholder="Fryd Kell Rios">
+                <label> <h5>Nombre completo</h5>
+                    <input type="text" placeholder="Fryd Kell Rios" name="Nombre" required>
                 </label>
             <div>
                 <label><h5>Edad</h5>
-                    <input type="number" placeholder="+7" min="7" max="30">
+                    <input type="number" placeholder="+7" min="7" max="30" required name="Edad">
                 </label>
             </div>
             <div>
                 <label> <h5>Correo electronico</h5>
-                    <input type="email" placeholder="ejemplo@ejemplo.com">
+                    <input type="email" placeholder="ejemplo@ejemplo.com" name="Correo" required>
                 </label>
             </div>
             <div>
                 <label><h5>Equipo al que quieres pertenecer</h5>
-                    <select name="equipos" id="equipos">
+                    <select name="Equipo al que quiere pertenecer" id="equipos">
                         <option value="Lobos">Lobos</option>
                         <option value="Quilla Club">Quilla Club</option>
                         <option value="Covolley">Covolley</option>
